@@ -21,6 +21,7 @@ img {
     --DARK-CYAN: hsl(185, 75%, 39%);
     --DARK-GRAY: hsl(0, 0%, 59%);
     --DARK-GRAYISH-BLUE: hsl(227, 10%, 46%);
+    --LIGHT-GRAY: hsl(0, 0%, 83%);
     --VERY-DARK-DESATURATED-BLUE: hsl(229, 23%, 23%);
     --WHITE: hsl(0, 0%, 100%);
 }
@@ -36,8 +37,9 @@ html {
 body {
     min-height: 100vh;
     background-color: var(--DARK-CYAN);
-
-    /* TODO: Apply background image */
+    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    background-position: bottom 40vh right 50vw, top 40vh left 50vw;
 
     display: flex;
     justify-content: center;
@@ -79,7 +81,7 @@ p {
 }
 
 .card__figure {
-    margin-top: 6rem;
+    margin-top: 5.375rem;
 
     display: flex;
     flex-flow: column nowrap;
@@ -90,6 +92,7 @@ p {
 .card__img {
     border: 0.3125rem solid var(--WHITE);
     border-radius: 50%;
+    width: 80%;
 }
 
 .card__figcaption {
@@ -100,7 +103,7 @@ p {
 }
 
 .card__figcaption p {
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
 }
 
 .card__age {
@@ -111,10 +114,11 @@ p {
 .card__stats {
     width: 100%;
     padding: 1.5rem 0;
-    border-top: 0.0625rem solid var(--DARK-GRAY);
+    border-top: 0.0625rem solid var(--LIGHT-GRAY);
 
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .card__stats p {
