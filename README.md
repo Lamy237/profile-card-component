@@ -26,7 +26,7 @@ This is my solution to the [Profile card component challenge on Frontend Mentor]
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [profile-card-component with Flexbox](https://www.frontendmentor.io/solutions/profile-card-component-9v2x8_me2W)
 - Live Site URL: [procaco](https://procaco.netlify.app/)
 
 ## My process
