@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* || RESET */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* || VARIABLES */
+:root {
+    --DARK-CYAN: hsl(185, 75%, 39%);
+    --DARK-GRAY: hsl(0, 0%, 59%);
+    --DARK-GRAYISH-BLUE: hsl(227, 10%, 46%);
+    --VERY-DARK-DESATURATED-BLUE: hsl(229, 23%, 23%);
+    --WHITE: hsl(0, 0%, 100%);
+}
+
+
+/* || GENERAL STYLES */
+html {
+    font-size: 100%;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+body {
+    min-height: 100vh;
+    background-color: var(--DARK-CYAN);
+
+    /* TODO: Apply background image */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    flex-grow: 1;
+}
+
+h1,
+h2 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--VERY-DARK-DESATURATED-BLUE);
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--DARK-GRAYISH-BLUE);
+}
+
+
+/* || CARD */
+.card {
+    width: min(100% - 1.5625rem, 21.875rem);
+    margin-inline: auto;
+    border-radius: 0.9375rem;
+    text-align: center;
+    background-color: var(--WHITE);
+    background-image: url('../images/bg-pattern-card.svg');
+    background-repeat: repeat-x;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 1.75rem;
+}
+
+.card__figure {
+    margin-top: 6rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card__img {
+    border: 0.3125rem solid var(--WHITE);
+    border-radius: 50%;
+}
+
+.card__figcaption {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.card__figcaption p {
+    font-size: 0.875rem;
+}
+
+.card__age {
+    font-weight: 400;
+    color: var(--DARK-GRAYISH-BLUE);
+}
+
+.card__stats {
+    width: 100%;
+    padding: 1.5rem 0;
+    border-top: 0.0625rem solid var(--DARK-GRAY);
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card__stats p {
+    font-size: 0.75rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
