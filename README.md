@@ -13,6 +13,7 @@ This is my solution to the [Profile card component challenge on Frontend Mentor]
   - [My process](#my-process)
     - [Built with](#built-with)
   - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -42,3 +43,8 @@ This is my solution to the [Profile card component challenge on Frontend Mentor]
 
 - Frontend Mentor - [@lamy](https://www.frontendmentor.io/profile/Lamy237)
 - Twitter - [@Lamy237](https://www.twitter.com/Lamy237)
+
+## Acknowledgments
+
+- Frontend Mentor - [@jrc17](https://www.frontendmentor.io/profile/jrc17)
+- GitHub repo - [profile-card-component-main](https://github.com/jrc17/profile-card-component-main)
